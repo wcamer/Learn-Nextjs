@@ -5,15 +5,14 @@ import { lusitana } from '@/app/ui/fonts';
 import { LatestInvoice } from '@/app/lib/definitions';
 import { fetchLatestInvoices } from '@/app/lib/data';
 
-export default async function LatestInvoices(){
-  const latestInvoices = await fetchLatestInvoices()
-  
-//   {
-//   latestInvoices,
-// }: {
-//   latestInvoices: LatestInvoice[];
-// }) {
+export default async function LatestInvoices() {
+  const latestInvoices = await fetchLatestInvoices();
 
+  //   {
+  //   latestInvoices,
+  // }: {
+  //   latestInvoices: LatestInvoice[];
+  // }) {
 
   return (
     <div className="flex w-full flex-col md:col-span-4">
