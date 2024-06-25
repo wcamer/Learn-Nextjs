@@ -23,11 +23,11 @@ export const metadata: Metadata = {
 export default async function Page() {
   // const revenue = await fetchRevenue() // removed this line as per instructions in chapater 9: streaming
   // const latestInvoices = await fetchLatestInvoices() // removed this line as per instructions in ch 9: streaming
-  const cardData = await fetchCardData();
-  const totalPaidInvoices = cardData.totalPaidInvoices;
-  const totalPendingInvoices = cardData.totalPendingInvoices;
-  const numberOfInvoices = cardData.numberOfInvoices;
-  const numberOfCustomers = cardData.numberOfCustomers;
+  // const cardData = await fetchCardData();
+  // const totalPaidInvoices = cardData.totalPaidInvoices;
+  // const totalPendingInvoices = cardData.totalPendingInvoices;
+  // const numberOfInvoices = cardData.numberOfInvoices;
+  // const numberOfCustomers = cardData.numberOfCustomers;
 
   return (
     <main>
